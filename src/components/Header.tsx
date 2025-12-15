@@ -38,10 +38,10 @@ function Header() {
                 </div>
               </div>
               <div className="flex flex-row gap-3 mt-[37px] mr-6">
-                <img className="w-5 h-5" src={igLogo} alt="" />
-                <img className="w-5 h-5" src={xLogo} alt="" />
-                <img className="w-5 h-5" src={fbLogo} alt="" />
-                <img className="w-5 h-5" src={ldLogo} alt="" />
+                <img className="w-5 h-5 cursor-pointer" src={igLogo} alt="" />
+                <img className="w-5 h-5 cursor-pointer" src={xLogo} alt="" />
+                <img className="w-5 h-5 cursor-pointer" src={fbLogo} alt="" />
+                <img className="w-5 h-5 cursor-pointer" src={ldLogo} alt="" />
               </div>
             </div>
           </div>
@@ -115,7 +115,7 @@ function Header() {
           </svg>
           <p>Activity</p>
         </div>
-        <div className="flex flex-row items-center gap-2 border-2 border-transparent  hover:border-2 hover:border-[#63b5b5] hover:text-[#009CA5] hover:bg-[#f3f7f7] py-1 px-2 rounded-lg">
+        <div className="flex flex-row items-center gap-2 border-2 border-[#63b5b5] bg-[#f3f7f7] text-[#009CA5] hover:border-2 hover:border-[#63b5b5] hover:text-[#009CA5] hover:bg-[#f3f7f7] py-1 px-2 rounded-lg">
           <svg
             viewBox="0 0 256 256"
             className="w-6 h-5 text-[#009CA5] fill-current"

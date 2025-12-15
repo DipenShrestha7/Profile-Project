@@ -1,3 +1,6 @@
+import DownArrow from "./DownArrow";
+import Message from "./Message";
+
 function Body() {
   return (
     <>
@@ -21,16 +24,7 @@ function Body() {
               <div className=" flex flex-row justify-between border border-gray-300 rounded-md p-4 mt-2">
                 <div className="flex flex-row items-center">
                   <div className="border border-gray-300 p-3 rounded-lg mr-4">
-                    <svg
-                      viewBox="0 0 256 256"
-                      className="w-6 h-5 text-[#009CA5] fill-current"
-                    >
-                      <g transform="translate(1.4066 1.4066) scale(2.81)">
-                        <path d="M69.381 55.4H20.619c-1.657 0-3-1.343-3-3s1.343-3 3-3h48.762c1.657 0 3 1.343 3 3s-1.343 3-3 3z" />
-                        <path d="M69.381 41.083H20.619c-1.657 0-3-1.343-3-3s1.343-3 3-3h48.762c1.657 0 3 1.343 3 3s-1.343 3-3 3z" />
-                        <path d="M24.893 86.074c-.768 0-1.536-.293-2.121-.879L13.5 75.924h-3.57C4.454 75.924 0 71.47 0 65.994V24.489c0-5.475 4.454-9.929 9.929-9.929h70.142c5.475 0 9.929 4.454 9.929 9.929v41.505c0 5.476-4.454 9.93-9.929 9.93H36.286l-9.272 9.271c-.585.585-1.353.879-2.121.879zM9.929 20.56C7.763 20.56 6 22.322 6 24.489v41.505c0 2.167 1.763 3.93 3.929 3.93h4.813c.795 0 1.559.316 2.121.879l8.029 8.029 8.029-8.029c.563-.563 1.326-.879 2.121-.879h45.028c2.166 0 3.929-1.763 3.929-3.93V24.489c0-2.167-1.763-3.929-3.929-3.929H9.929z" />
-                      </g>
-                    </svg>
+                    <Message />
                   </div>
                   <div>
                     <p className="font-semibold">
@@ -44,33 +38,13 @@ function Body() {
                     Successful
                   </span>
                   <div className="w-px h-10 bg-gray-300 mx-4"></div>
-                  <svg
-                    className="w-4.5 h-4.5 text-[#009CA5]"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 256 256"
-                  >
-                    <g
-                      fill="currentColor"
-                      transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)"
-                    >
-                      <path d="M 90 24.25 c 0 -0.896 -0.342 -1.792 -1.025 -2.475 c -1.366 -1.367 -3.583 -1.367 -4.949 0 L 45 60.8 L 5.975 21.775 c -1.367 -1.367 -3.583 -1.367 -4.95 0 c -1.366 1.367 -1.366 3.583 0 4.95 l 41.5 41.5 c 1.366 1.367 3.583 1.367 4.949 0 l 41.5 -41.5 C 89.658 26.042 90 25.146 90 24.25 z" />
-                    </g>
-                  </svg>
+                  <DownArrow />
                 </div>
               </div>
               <div className=" flex flex-row justify-between border border-gray-300 rounded-md p-4 mt-2">
                 <div className="flex flex-row items-center">
                   <div className="border border-gray-300 p-3 rounded-lg mr-4">
-                    <svg
-                      viewBox="0 0 256 256"
-                      className="w-6 h-5 text-[#009CA5] fill-current"
-                    >
-                      <g transform="translate(1.4066 1.4066) scale(2.81)">
-                        <path d="M69.381 55.4H20.619c-1.657 0-3-1.343-3-3s1.343-3 3-3h48.762c1.657 0 3 1.343 3 3s-1.343 3-3 3z" />
-                        <path d="M69.381 41.083H20.619c-1.657 0-3-1.343-3-3s1.343-3 3-3h48.762c1.657 0 3 1.343 3 3s-1.343 3-3 3z" />
-                        <path d="M24.893 86.074c-.768 0-1.536-.293-2.121-.879L13.5 75.924h-3.57C4.454 75.924 0 71.47 0 65.994V24.489c0-5.475 4.454-9.929 9.929-9.929h70.142c5.475 0 9.929 4.454 9.929 9.929v41.505c0 5.476-4.454 9.93-9.929 9.93H36.286l-9.272 9.271c-.585.585-1.353.879-2.121.879zM9.929 20.56C7.763 20.56 6 22.322 6 24.489v41.505c0 2.167 1.763 3.93 3.929 3.93h4.813c.795 0 1.559.316 2.121.879l8.029 8.029 8.029-8.029c.563-.563 1.326-.879 2.121-.879h45.028c2.166 0 3.929-1.763 3.929-3.93V24.489c0-2.167-1.763-3.929-3.929-3.929H9.929z" />
-                      </g>
-                    </svg>
+                    <Message />
                   </div>
                   <div>
                     <p className="font-semibold">
@@ -84,33 +58,13 @@ function Body() {
                     Technical issue
                   </span>
                   <div className="w-px h-10 bg-gray-300 mx-4"></div>
-                  <svg
-                    className="w-4.5 h-4.5 text-[#009CA5]"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 256 256"
-                  >
-                    <g
-                      fill="currentColor"
-                      transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)"
-                    >
-                      <path d="M 90 24.25 c 0 -0.896 -0.342 -1.792 -1.025 -2.475 c -1.366 -1.367 -3.583 -1.367 -4.949 0 L 45 60.8 L 5.975 21.775 c -1.367 -1.367 -3.583 -1.367 -4.95 0 c -1.366 1.367 -1.366 3.583 0 4.95 l 41.5 41.5 c 1.366 1.367 3.583 1.367 4.949 0 l 41.5 -41.5 C 89.658 26.042 90 25.146 90 24.25 z" />
-                    </g>
-                  </svg>
+                  <DownArrow />
                 </div>
               </div>
               <div className=" flex flex-row justify-between border border-gray-300 rounded-md p-4 mt-2">
                 <div className="flex flex-row items-center">
                   <div className="border border-gray-300 p-3 rounded-lg mr-4">
-                    <svg
-                      viewBox="0 0 256 256"
-                      className="w-6 h-5 text-[#009CA5] fill-current"
-                    >
-                      <g transform="translate(1.4066 1.4066) scale(2.81)">
-                        <path d="M69.381 55.4H20.619c-1.657 0-3-1.343-3-3s1.343-3 3-3h48.762c1.657 0 3 1.343 3 3s-1.343 3-3 3z" />
-                        <path d="M69.381 41.083H20.619c-1.657 0-3-1.343-3-3s1.343-3 3-3h48.762c1.657 0 3 1.343 3 3s-1.343 3-3 3z" />
-                        <path d="M24.893 86.074c-.768 0-1.536-.293-2.121-.879L13.5 75.924h-3.57C4.454 75.924 0 71.47 0 65.994V24.489c0-5.475 4.454-9.929 9.929-9.929h70.142c5.475 0 9.929 4.454 9.929 9.929v41.505c0 5.476-4.454 9.93-9.929 9.93H36.286l-9.272 9.271c-.585.585-1.353.879-2.121.879zM9.929 20.56C7.763 20.56 6 22.322 6 24.489v41.505c0 2.167 1.763 3.93 3.929 3.93h4.813c.795 0 1.559.316 2.121.879l8.029 8.029 8.029-8.029c.563-.563 1.326-.879 2.121-.879h45.028c2.166 0 3.929-1.763 3.929-3.93V24.489c0-2.167-1.763-3.929-3.929-3.929H9.929z" />
-                      </g>
-                    </svg>
+                    <Message />
                   </div>
                   <div>
                     <p className="font-semibold">
@@ -128,33 +82,13 @@ function Body() {
                     Needs review
                   </span>
                   <div className="w-px h-10 bg-gray-300 mx-4"></div>
-                  <svg
-                    className="w-4.5 h-4.5 text-[#009CA5]"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 256 256"
-                  >
-                    <g
-                      fill="currentColor"
-                      transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)"
-                    >
-                      <path d="M 90 24.25 c 0 -0.896 -0.342 -1.792 -1.025 -2.475 c -1.366 -1.367 -3.583 -1.367 -4.949 0 L 45 60.8 L 5.975 21.775 c -1.367 -1.367 -3.583 -1.367 -4.95 0 c -1.366 1.367 -1.366 3.583 0 4.95 l 41.5 41.5 c 1.366 1.367 3.583 1.367 4.949 0 l 41.5 -41.5 C 89.658 26.042 90 25.146 90 24.25 z" />
-                    </g>
-                  </svg>
+                  <DownArrow />
                 </div>
               </div>
               <div className=" flex flex-row justify-between border border-gray-300 rounded-md p-4 mt-2">
                 <div className="flex flex-row items-center">
                   <div className="border border-gray-300 p-3 rounded-lg mr-4">
-                    <svg
-                      viewBox="0 0 256 256"
-                      className="w-6 h-5 text-[#009CA5] fill-current"
-                    >
-                      <g transform="translate(1.4066 1.4066) scale(2.81)">
-                        <path d="M69.381 55.4H20.619c-1.657 0-3-1.343-3-3s1.343-3 3-3h48.762c1.657 0 3 1.343 3 3s-1.343 3-3 3z" />
-                        <path d="M69.381 41.083H20.619c-1.657 0-3-1.343-3-3s1.343-3 3-3h48.762c1.657 0 3 1.343 3 3s-1.343 3-3 3z" />
-                        <path d="M24.893 86.074c-.768 0-1.536-.293-2.121-.879L13.5 75.924h-3.57C4.454 75.924 0 71.47 0 65.994V24.489c0-5.475 4.454-9.929 9.929-9.929h70.142c5.475 0 9.929 4.454 9.929 9.929v41.505c0 5.476-4.454 9.93-9.929 9.93H36.286l-9.272 9.271c-.585.585-1.353.879-2.121.879zM9.929 20.56C7.763 20.56 6 22.322 6 24.489v41.505c0 2.167 1.763 3.93 3.929 3.93h4.813c.795 0 1.559.316 2.121.879l8.029 8.029 8.029-8.029c.563-.563 1.326-.879 2.121-.879h45.028c2.166 0 3.929-1.763 3.929-3.93V24.489c0-2.167-1.763-3.929-3.929-3.929H9.929z" />
-                      </g>
-                    </svg>
+                    <Message />
                   </div>
                   <div>
                     <p className="font-semibold">
@@ -172,18 +106,7 @@ function Body() {
                     Callback request
                   </span>
                   <div className="w-px h-10 bg-gray-300 mx-4"></div>
-                  <svg
-                    className="w-4.5 h-4.5 text-[#009CA5]"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 256 256"
-                  >
-                    <g
-                      fill="currentColor"
-                      transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)"
-                    >
-                      <path d="M 90 24.25 c 0 -0.896 -0.342 -1.792 -1.025 -2.475 c -1.366 -1.367 -3.583 -1.367 -4.949 0 L 45 60.8 L 5.975 21.775 c -1.367 -1.367 -3.583 -1.367 -4.95 0 c -1.366 1.367 -1.366 3.583 0 4.95 l 41.5 41.5 c 1.366 1.367 3.583 1.367 4.949 0 l 41.5 -41.5 C 89.658 26.042 90 25.146 90 24.25 z" />
-                    </g>
-                  </svg>
+                  <DownArrow />
                 </div>
               </div>
               <div>
@@ -196,16 +119,7 @@ function Body() {
               <div className=" flex flex-row justify-between border border-gray-300 rounded-md p-4 mt-2">
                 <div className="flex flex-row items-center">
                   <div className="border border-gray-300 p-3 rounded-lg mr-4">
-                    <svg
-                      viewBox="0 0 256 256"
-                      className="w-6 h-5 text-[#009CA5] fill-current"
-                    >
-                      <g transform="translate(1.4066 1.4066) scale(2.81)">
-                        <path d="M69.381 55.4H20.619c-1.657 0-3-1.343-3-3s1.343-3 3-3h48.762c1.657 0 3 1.343 3 3s-1.343 3-3 3z" />
-                        <path d="M69.381 41.083H20.619c-1.657 0-3-1.343-3-3s1.343-3 3-3h48.762c1.657 0 3 1.343 3 3s-1.343 3-3 3z" />
-                        <path d="M24.893 86.074c-.768 0-1.536-.293-2.121-.879L13.5 75.924h-3.57C4.454 75.924 0 71.47 0 65.994V24.489c0-5.475 4.454-9.929 9.929-9.929h70.142c5.475 0 9.929 4.454 9.929 9.929v41.505c0 5.476-4.454 9.93-9.929 9.93H36.286l-9.272 9.271c-.585.585-1.353.879-2.121.879zM9.929 20.56C7.763 20.56 6 22.322 6 24.489v41.505c0 2.167 1.763 3.93 3.929 3.93h4.813c.795 0 1.559.316 2.121.879l8.029 8.029 8.029-8.029c.563-.563 1.326-.879 2.121-.879h45.028c2.166 0 3.929-1.763 3.929-3.93V24.489c0-2.167-1.763-3.929-3.929-3.929H9.929z" />
-                      </g>
-                    </svg>
+                    <Message />
                   </div>
                   <div>
                     <p className="font-semibold">
@@ -223,18 +137,7 @@ function Body() {
                     Callback completed
                   </span>
                   <div className="w-px h-10 bg-gray-300 mx-4"></div>
-                  <svg
-                    className="w-4.5 h-4.5 text-[#009CA5]"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 256 256"
-                  >
-                    <g
-                      fill="currentColor"
-                      transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)"
-                    >
-                      <path d="M 90 24.25 c 0 -0.896 -0.342 -1.792 -1.025 -2.475 c -1.366 -1.367 -3.583 -1.367 -4.949 0 L 45 60.8 L 5.975 21.775 c -1.367 -1.367 -3.583 -1.367 -4.95 0 c -1.366 1.367 -1.366 3.583 0 4.95 l 41.5 41.5 c 1.366 1.367 3.583 1.367 4.949 0 l 41.5 -41.5 C 89.658 26.042 90 25.146 90 24.25 z" />
-                    </g>
-                  </svg>
+                  <DownArrow />
                 </div>
               </div>
             </div>
@@ -268,7 +171,7 @@ function Body() {
                   Call Desiree Mitchell to inform that the document needs to be
                   corrected and scanned again
                 </p>
-                <button className="bg-cyan-500 w-full text-white rounded-lg py-2.5 flex items-center justify-center mt-3 mb-2">
+                <button className="bg-cyan-500 w-full text-white rounded-lg py-2.5 flex items-center justify-center mt-3 mb-2 cursor-pointer gap-2">
                   <svg
                     className="w-4.5 h-4.5 text-white"
                     xmlns="http://www.w3.org/2000/svg"
